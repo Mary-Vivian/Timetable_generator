@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timetable Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>My timetable</h1>
+<div id="timetable">
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Time</th>
+        <th>Lesson</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="timetable-body">
+    </tbody>
+  </table>
+
+<form id="lesson-form">
+  <label for="day">Day:</label>
+  <input type="text" id="day" required>
+  <label for="time">Time:</label>
+  <input type="text" id="time" required>
+  <label for="lesson">Lesson:</label>
+  <input type="text" id="lesson" required>
+  <br>
+  <br>
+  <button type="submit">Add Lesson</button>
+</form>
+<script src="time.js"></script>
+</body>
+</html>
+
+
+
+
